@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "dining",
+      "name": "Dining",
+      "icon": "fork.knife",
+      "keywords": [
+        "restaurant",
+        "dinner",
+        "lunch",
+        "breakfast",
+        "cafe",
+        "coffee",
+        "starbucks",
+        "mcdonald",
+        "chipotle",
+        "doordash",
+        "uber eats",
+        "takeout",
+        "bar",
+        "pizza"
+      ]
+    },
+    {
+      "id": "groceries",
+      "name": "Groceries",
+      "icon": "cart",
+      "keywords": [
+        "grocery",
+        "supermarket",
+        "whole foods",
+        "trader joe",
+        "kroger",
+        "safeway",
+        "publix",
+        "aldi",
+        "instacart"
+      ]
+    },
+    {
+      "id": "gas",
+      "name": "Gas",
+      "icon": "fuelpump",
+      "description": "Gasoline and fuel for vehicles at gas stations, plus EV charging. Not home utility bills.",
+      "keywords": [
+        "gas station",
+        "gasoline",
+        "fuel",
+        "shell",
+        "chevron",
+        "exxon",
+        "bp",
+        "ev charging"
+      ]
+    },
+    {
+      "id": "travel",
+      "name": "Travel",
+      "icon": "airplane",
+      "keywords": [
+        "flight",
+        "airline",
+        "hotel",
+        "airbnb",
+        "rental car",
+        "delta",
+        "united",
+        "marriott",
+        "hilton",
+        "expedia"
+      ]
+    },
+    {
+      "id": "transit",
+      "name": "Transit",
+      "icon": "tram",
+      "keywords": [
+        "transit",
+        "subway",
+        "train",
+        "bus",
+        "uber",
+        "lyft",
+        "taxi",
+        "parking",
+        "toll"
+      ]
+    },
+    {
+      "id": "streaming",
+      "name": "Streaming",
+      "icon": "play.tv",
+      "keywords": [
+        "netflix",
+        "hulu",
+        "disney",
+        "spotify",
+        "streaming",
+        "hbo",
+        "youtube"
+      ]
+    },
+    {
+      "id": "drugstore",
+      "name": "Drugstores",
+      "icon": "cross.case",
+      "keywords": [
+        "pharmacy",
+        "drugstore",
+        "cvs",
+        "walgreens",
+        "rite aid"
+      ]
+    },
+    {
+      "id": "online",
+      "name": "Online Shopping",
+      "icon": "bag",
+      "keywords": [
+        "amazon",
+        "online",
+        "ebay",
+        "etsy",
+        "target.com",
+        "walmart.com"
+      ]
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "icon": "ticket",
+      "keywords": [
+        "movie",
+        "concert",
+        "theater",
+        "tickets",
+        "sports",
+        "museum"
+      ]
+    },
+    {
+      "id": "utilities",
+      "name": "Utilities",
+      "icon": "bolt",
+      "description": "Recurring home utility and service bills: electricity, natural gas, water, sewer, trash, internet, cable, and phone or wireless plans.",
+      "keywords": [
+        "electric",
+        "utility",
+        "utilities",
+        "natural gas",
+        "gas bill",
+        "gas company",
+        "water bill",
+        "internet",
+        "cable",
+        "phone bill",
+        "wireless"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "chase-sapphire-preferred",
+      "name": "Sapphire Preferred",
+      "issuer": "Chase",
+      "rewardType": "points",
+      "baseRate": 1,
+      "pointValue": 1.0,
+      "portalPointValue": 1.25,
+      "rules": [
+        {
+          "categories": [
+            "dining"
+          ],
+          "rate": 3
+        },
+        {
+          "categories": [
+            "streaming"
+          ],
+          "rate": 3
+        },
+        {
+          "categories": [
+            "groceries"
+          ],
+          "rate": 3,
+          "note": "Online groceries only"
+        },
+        {
+          "categories": [
+            "travel"
+          ],
+          "rate": 2
+        }
+      ]
+    },
+    {
+      "id": "chase-freedom-unlimited",
+      "name": "Freedom Unlimited",
+      "issuer": "Chase",
+      "rewardType": "cashBack",
+      "baseRate": 1.5,
+      "pointValue": 1.0,
+      "rules": [
+        {
+          "categories": [
+            "dining"
+          ],
+          "rate": 3
+        },
+        {
+          "categories": [
+            "drugstore"
+          ],
+          "rate": 3
+        }
+      ]
+    },
+    {
+      "id": "chase-freedom-flex",
+      "name": "Freedom Flex",
+      "issuer": "Chase",
+      "rewardType": "cashBack",
+      "baseRate": 1,
+      "pointValue": 1.0,
+      "rules": [
+        {
+          "categories": [
+            "dining"
+          ],
+          "rate": 3
+        },
+        {
+          "categories": [
+            "drugstore"
+          ],
+          "rate": 3
+        }
+      ]
+    },
+    {
+      "id": "discover-it-cash-back",
+      "name": "Discover it Cash Back",
+      "issuer": "Discover",
+      "rewardType": "cashBack",
+      "baseRate": 1,
+      "pointValue": 1.0,
+      "rules": []
+    },
+    {
+      "id": "citi-double-cash",
+      "name": "Double Cash",
+      "issuer": "Citi",
+      "rewardType": "cashBack",
+      "baseRate": 2,
+      "pointValue": 1.0,
+      "rules": []
+    },
+    {
+      "id": "wells-fargo-active-cash",
+      "name": "Active Cash",
+      "issuer": "Wells Fargo",
+      "rewardType": "cashBack",
+      "baseRate": 2,
+      "pointValue": 1.0,
+      "rules": []
+    },
+    {
+      "id": "amex-gold",
+      "name": "Gold Card",
+      "issuer": "American Express",
+      "rewardType": "points",
+      "baseRate": 1,
+      "pointValue": 1.0,
+      "rules": [
+        {
+          "categories": [
+            "dining"
+          ],
+          "rate": 4
+        },
+        {
+          "categories": [
+            "groceries"
+          ],
+          "rate": 4,
+          "cap": 25000,
+          "note": "U.S. supermarkets only"
+        },
+        {
+          "categories": [
+            "travel"
+          ],
+          "rate": 3,
+          "note": "Flights booked directly with airlines"
+        }
+      ]
+    },
+    {
+      "id": "amex-blue-cash-preferred",
+      "name": "Blue Cash Preferred",
+      "issuer": "American Express",
+      "rewardType": "cashBack",
+      "baseRate": 1,
+      "pointValue": 1.0,
+      "rules": [
+        {
+          "categories": [
+            "groceries"
+          ],
+          "rate": 6,
+          "cap": 6000,
+          "note": "U.S. supermarkets only"
+        },
+        {
+          "categories": [
+            "streaming"
+          ],
+          "rate": 6
+        },
+        {
+          "categories": [
+            "gas"
+          ],
+          "rate": 3
+        },
+        {
+          "categories": [
+            "transit"
+          ],
+          "rate": 3
+        }
+      ]
+    },
+    {
+      "id": "capital-one-savor",
+      "name": "Savor",
+      "issuer": "Capital One",
+      "rewardType": "cashBack",
+      "baseRate": 1,
+      "pointValue": 1.0,
+      "rules": [
+        {
+          "categories": [
+            "dining"
+          ],
+          "rate": 3
+        },
+        {
+          "categories": [
+            "entertainment"
+          ],
+          "rate": 3
+        },
+        {
+          "categories": [
+            "streaming"
+          ],
+          "rate": 3
+        },
+        {
+          "categories": [
+            "groceries"
+          ],
+          "rate": 3
+        }
+      ]
+    },
+    {
+      "id": "capital-one-venture",
+      "name": "Venture",
+      "issuer": "Capital One",
+      "rewardType": "points",
+      "baseRate": 2,
+      "pointValue": 1.0,
+      "rules": [
+        {
+          "categories": [
+            "travel"
+          ],
+          "rate": 5,
+          "note": "Hotels and rental cars booked through Capital One Travel"
+        }
+      ]
+    }
+  ]
+}
