@@ -1,5 +1,5 @@
 {
-  "version": 20261102,
+  "version": 20261109,
   "categories": [
     {
       "id": "dining",
@@ -250,8 +250,7 @@
       "rules": [
         {
           "categories": [
-            "groceries",
-            "streaming"
+            "groceries"
           ],
           "rate": 5,
           "startDate": "2026-01-01",
@@ -272,7 +271,7 @@
         {
           "categories": [
             "gas",
-            "transit",
+            "travel",
             "drugstore"
           ],
           "rate": 5,
